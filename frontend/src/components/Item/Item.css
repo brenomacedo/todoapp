@@ -1,0 +1,38 @@
+.item {
+    background-color: #fff;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    margin:15px 0;
+}
+
+.item header {
+    font-size: 20px;
+    font-weight: bold;
+    color: #304ffe;
+}
+
+button.delete {
+    background-color: #f44336;
+}
+
+button.edit {
+    background-color: #f9a825;
+}
+
+button.delete:active {
+    background-color: #d50000;
+}
+
+button.edit:active {
+    background-color: #ff6f00;
+}
+
+input.edit {
+    background-color: #ccc;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    padding: 2px;
+}
